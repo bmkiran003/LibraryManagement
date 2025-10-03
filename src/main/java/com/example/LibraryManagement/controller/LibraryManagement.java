@@ -10,4 +10,10 @@ class LibraryManagement {
         return "Hello, Library Management!";
     }
     
+    @GetMapping("/book")
+    public String getBook() {
+        return "Book1";
+    }
+    
+    
 }
